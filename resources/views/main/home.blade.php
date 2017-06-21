@@ -1,7 +1,16 @@
  @extends('layouts.master')
 
 @section('content')
+<style >
+  .text-center{
+    font-family: 'Fredoka One', cursive;
+  }
+  #myModal{
+    margin: 10% auto;
+    width: 110%;
+  }
 
+</style>
 
     <!--Carousel-->
       <div id="carousel-container">
@@ -45,5 +54,38 @@
         </div>
       </div>
     <!--/Carousel-->
+      <div id="myModal" class="modal fade "   role="dialog">
+<br><br>
+     <div class=" col-md-6 col-md-offset-3 bg-info">   
+        <h2 class=" text-uppercase text-center" style="color: #08088A"> SE EL PRIMERO EN RECIBIR OFERTAS Y NOVEDADES</h3>
+          <h4 class=" text-center" style="color:#000">Tu primera compra con 10% de descuento</h4>
+          <br>
+
+          <div class="col-md-10 col-md-offset-1">
+          <input class="form-control" type="text" name="" placeholder=  "Ingresa tu nombre">
+          <br>
+          <input class="form-control" type="text" name="" placeholder="Ingresa tu correo electrónico">
+          </div>
+          
+          <div  class="text-center"><button style="margin-top: 30px" class="btn btn-danger btn-lg">Suscribirse</button></div>
+          <br><br>
+      </div>
+  </div>
+
+    <script>
+
+
+
+  if(localStorage.num==undefined){
+
+  $(document).ready(function(){
+        
+  $('#myModal').modal('show');
+  localStorage.num=1;
+
+});
+
+  }
+  </script>
 
  @stop

@@ -1,6 +1,7 @@
  @extends('layouts.master')
 
 @section('content')
+
  <div id="carousel-container">
         <div id="productosCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -41,5 +42,40 @@
           </a>
         </div>
       </div>
+
+
+      <div id="myModal" class="modal fade "   role="dialog">
+<br><br>
+     <div class=" col-md-6 col-md-offset-3 bg-info">   
+        <h3 class=" text-uppercase text-center" style="color: #FF0000">SUSCRIBETE A NUESTRA PAGINA Y SE EL PRIMERO EN RECIBIR OFERTAS Y NOVEDADES</h3>
+          <h4 class=" text-center" style="color:#000">Tu primera compra con 10% de descuento</h4>
+          <br>
+
+          <div class="col-md-10 col-md-offset-1">
+          <input class="form-control" type="text" name="" placeholder=  "Ingresa tu nombre">
+          <br>
+          <input class="form-control" type="text" name="" placeholder="Ingresa tu correo electrónico">
+          </div>
+          
+          <div  class="text-center"><button style="margin-top: 30px" class="btn btn-danger btn-lg">Suscribirse</button></div>
+          <br><br>
+      </div>
+  </div>
+
+    <script>
+localStorage.cont=1;
+if(localStorage.cont!=1){
+  alert(localStorage.cont);
+  
+}else{
+  localStorage.cont=1;
+  $(document).ready(function(){
+ localStorage.cont++;
+  $('#myModal').modal('show');
+});
+}
+  
+  </script>
+
     <!--/Carousel-->
     @stop
