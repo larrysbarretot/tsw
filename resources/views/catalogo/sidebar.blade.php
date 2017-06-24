@@ -1,4 +1,9 @@
 <div class="col-md-12">
+  <div class="list-group filtros-toggle">
+    <a id="filtrosToggle" href="" class="list-group-item list-group-item-action navbar-toggler hidden-sm-up" data-target="#filtros-container" data-toggle="collapse">
+      <h5 class="list-group-item-heading">Filtros<i class="fa fa-chevron-down"></i></h5>
+    </a>
+  </div>
   <div id="filtros-container" class="collapse navbar-toggleable-xs">
     <div class="list-group">
       <a href="" class="list-group-item list-group-item-action active">

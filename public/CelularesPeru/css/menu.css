@@ -50,7 +50,7 @@ div#div-nav2{
 
 @media (min-width: 768px){
 	.col-md-6{
-		max-width: 40%;
+		/*max-width: 40%;*/
 		margin: 0 auto;
 	}
 
