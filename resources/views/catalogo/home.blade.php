@@ -74,17 +74,18 @@
               </div>
               <div class="modal-body">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-sm-12 col-md-4 col-lg-5">
                     <img src="{{url("/products/images/$product->id.$product->extension")}}" class="zoom img-responsive">
                   </div>
-                  <div class="col-md-5">
+                  <div class="col-sm-7 col-md-4 col-lg-4">
                     <div style="border:0px solid #BDBDBD" class="text-justify texto_boton">
               			  <h3 class="text-danger">@{{Titulo}}</h3>
               			  <p>@{{Descripcion}}</p>
             			  </div>
                   </div>
-                  <div class="col-md-3">
-                    <h2 class="text-danger text-center">S/.@{{Precio}}</h2><br><br>
+                  <div class="col-sm-5 col-md-4 col-lg-3">
+                    <div class="text-xs-center">
+                    <h2 class="text-danger">S/.@{{Precio}}</h2><br><br>
                     <form action="{{ url('/AgregarCarrito') }} " id="form-agregar" method="post">
                       <input type="hidden" name="_method" value="post">
                       <input type="hidden" name="product_id" value="@{{idProducto}}">
@@ -92,6 +93,7 @@
                       {{ csrf_field() }}
                       <button type="submit"  class="btn btn-primary btn-md glyphicon glyphicon-shopping-cart"><span class="texto_boton"><br>  Agregar al <br> carrito</span></button>
                     </form>
+                    </div>
                   </div>
                 </div>
               </div>

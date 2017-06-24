@@ -162,3 +162,7 @@ div#textf a{
 input.btn-success{
 	background-color: skyblue;
 }
+
+.navbar-nav .nav-item {
+	float: inherit;
+}
