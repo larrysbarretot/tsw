@@ -15,13 +15,13 @@ body{
 	margin-bottom: 20px;
 }
 #header-container{
-	background-color: #286FBF;
+	background-color: #0E4B89;
 	color: white;
 	padding: 10px;
 }
 
 #info-container{
-	background-color: #286FBF;
+	background-color: #0E4B89;
 	color: white;
 }
 #header-container .login,#header-container .navbar-toggler{
@@ -32,7 +32,7 @@ body{
 }
 
 .btn.btn-celperu{
-	background-color: #286FBF;
+	background-color: #0E4B89;
 	color: white;
 }
 .btn.btn-celperu:hover{
@@ -106,13 +106,13 @@ input.form-control:focus{
 }
 #info-container img{
 	margin: 0 auto;
-	height: 200px;
+	height: 50px;
 	margin-top: 2em;
 }
 #footer-container{
-	background-color: #1c3643; 
+	background-color: #083A6C; 
 	color: white;
-	padding: 4em 0;
+	padding: 6em 0;
 	
 }
 #footer-container .nav-link{
@@ -230,7 +230,6 @@ input.form-control:focus{
 
 }
 	#footer-container{
-	background-color: #1c3643; 
 	color: white;
 	padding: 1em 0;
 

@@ -1,29 +1,26 @@
 <div id="myModal" class="modal fade" role="dialog">
-  <div class="container">
+  <div class="container video-modal">
     <div class="row">
-      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-4 col-lg-6 col-lg-offset-3 bg-info">
-        <div class="row">
-          <div class="col-xs-10 col-xs-offset-1">
-            <h2 class="text-uppercase text-center" style="color: #08088A"> SE EL PRIMERO EN RECIBIR OFERTAS Y NOVEDADES</h3>
-            <h4 class="text-center" style="color:#000">Tu primera compra con 10% de descuento</h4>
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-9 col-md-offset-3 col-lg-8 col-lg-offset-2">
+        <div class="modal-content">
+          <div class="row">
+            <div class="col-xs-3 col-xs-offset-9">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-10 col-xs-offset-1">
-            <form>
-              <div class="form-group">
-                <input class="form-control" type="text" name="" placeholder=  "Ingresa tu nombre">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/70IJoq_k7mc?autoplay=1" frameborder="0" allowfullscreen></iframe>
               </div>
-              <div class="form-group">
-                <input class="form-control" type="text" name="" placeholder="Ingresa tu correo electrónico">
-              </div>
-              <div class="row">
-                <div class="col-xs-8 col-xs-offset-2">
-                  <a href="#" class="btn btn-danger btn-block btn-lg">Suscribirse</a>
-                  <br><br>
-                </div>
-              </div>
-            </form>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-8">
+              <br>
+              <button type="button" class="btn btn-info pull-right stop-video" data-dismiss="modal">CERRAR</button>
+              <br><br>
+            </div>
           </div>
         </div>
       </div>

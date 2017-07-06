@@ -4,13 +4,14 @@
     <article class="footer-1">
       <div class="footer-1-1">
         <p>Síguenos:</p>
-        <a href="https://www.facebook.com/" target="_blank"><img src="{{url('CelularesPeru/imagenes/facebook.png')}}"></a>
-        <a href="https://www.twitter.com/" target="_blank"><img src="{{url('CelularesPeru/imagenes/twitter.png')}}"></a>
-        <a href="https://www.google+.com/" target="_blank"><img src="{{url('CelularesPeru/imagenes/google-plus.png')}}"></a>         
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+        <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+        <a href="https://www.google+.com/" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a>
       </div>
       <div class="footer-1-2">
         <p>Escríbenos:</p>
-        <p><a href="mailto:celularesperu@gmail.com"><img src="{{url('CelularesPeru/imagenes/gmail.png')}}"> @celularesperu@gmail.com</a></p>
+        <p><a href="mailto:celularesperu@gmail.com"><i class="fa fa-at" ></i> celularesperu@gmail.com</a></p>
       </div>        
     </article>
     <article class="footer-2">
@@ -22,19 +23,19 @@
       <div class="division">
         <ul class="navegador">
           <li class="nav-items">
-            <a href="{{url('/')}}" class="n-link1"><img src="{{url('CelularesPeru/imagenes/casa.png')}}">Home</a>
+            <a href="{{url('/')}}" class="n-link1"><span class="icon-home-outline"></span> Home</a>
           </li>
           <li class="nav-items">
-            <a href="{{url('/catalogo')}}" class="n-link2"><img src="{{url('CelularesPeru/imagenes/catalogo.png')}}">Catalogo</a>
+            <a href="{{url('/catalogo')}}" class="n-link2"><span class="icon-news"></span> Catalogo</a>
           </li>
           <li class="nav-items">
-            <a href="{{url('/carrito')}}" class="n-link3"><img src="{{url('CelularesPeru/imagenes/carrito.png')}}">Carrito</a>
+            <a href="{{url('/carrito')}}" class="n-link3"><span class="icon-shopping-cart"></span> Carrito</a>
           </li>
           <li class="nav-items">
-            <a href="{{url('/contacto')}}" class="n-link4"><img src="{{url('CelularesPeru/imagenes/contacto.png')}}">Contacto</a>
+            <a href="{{url('/contacto')}}" class="n-link4"><span class="icon-location"></span> Contacto</a>
           </li>
           <li class="nav-items">
-            <a href="{{url('/login')}}" class="n-link5"><img src="{{url('CelularesPeru/imagenes/login.png')}}">Entrar</a>
+            <a href="{{url('/login')}}" class="n-link5"><span class="icon-power"></span> Entrar</a>
           </li>
         </ul>
       </div>

@@ -5,26 +5,26 @@
         <div class="col-xs-12 col-lg-9" id="div-nav">
           <ul class="nav navbar-nav" id="nav-f" >
             <li class="nav-item text-xs-center">
-              <a href="{{url('/')}}" class="nav-link"><img src="{{url('CelularesPeru/imagenes/mhome1.png')}}"> Home</a>
+              <a href="{{url('/')}}" class="nav-link"><span class="icon-home-outline"></span> Home</a>
             </li>
             <li class="nav-item text-xs-center">
-              <a href="{{url('/catalogo')}}" class="nav-link"><img src="{{url('CelularesPeru/imagenes/mcatalogo1.png')}}"> Catalogo</a>
+              <a href="{{url('/catalogo')}}" class="nav-link"><span class="icon-news"></span> Catalogo</a>
             </li>
             <li class="nav-item text-xs-center">
-              <a href="{{url('/carrito')}}" class="nav-link"><img src="{{url('CelularesPeru/imagenes/mcarrito1.png')}}"> Carrito <span>{{$productsCount}}</span></a>
+              <a href="{{url('/carrito')}}" class="nav-link"><span class="icon-shopping-cart"></span> Carrito <span>{{$productsCount}}</span></a>
             </li>
             <li class="nav-item text-xs-center">
-              <a href="{{url('/nosotros')}}" class="nav-link active"><img src="{{url('CelularesPeru/imagenes/mnosotros3.png')}}"> Nosotros</a>
+              <a href="{{url('/nosotros')}}" class="nav-link active"><span class="icon-group"></span> Nosotros</a>
             </li>
             <li class="nav-item text-xs-center">
-              <a href="{{url('/contacto')}}" class="nav-link"><img src="{{url('CelularesPeru/imagenes/mcontacto1.png')}}"> Contacto</a>
+              <a href="{{url('/contacto')}}" class="nav-link"><span class="icon-location"></span> Contacto</a>
             </li>
             @if (Auth::guest())
             <li class="nav-item text-xs-center hidden-sm-up">
-              <a href="{{url('/login')}}" class="nav-link"><img src="{{url('CelularesPeru/imagenes/mlogin.png')}}"> Iniciar Sesión</a>
+              <a href="{{ url('/register') }}" class="nav-link"><span class="icon-input-checked"></span> Registrar</a>
             </li>
             <li class="nav-item text-xs-center hidden-sm-up">
-              <a href="{{ url('/register') }}" class="nav-link"><img src="{{url('CelularesPeru/imagenes/registro1.png')}}"> Registrar</a>
+              <a href="{{url('/login')}}" class="nav-link"><span class="icon-power"></span> Entrar</a>
             </li>
             @else
             <li class="nav-item text-xs-center hidden-sm-up">

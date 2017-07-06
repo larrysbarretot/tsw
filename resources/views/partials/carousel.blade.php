@@ -5,24 +5,27 @@
       <li data-target="#productosCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#productosCarousel" data-slide-to="1"></li>
       <li data-target="#productosCarousel" data-slide-to="2"></li>
+      <li data-target="#productosCarousel" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="{{url('CelularesPeru/imagenes/10.png')}}" alt="Primer producto" width="80%" height="300px">
+      <div class="carousel-item active">
+        <img src="{{url('CelularesPeru/imagenes/portada1.jpg')}}" alt="Primer producto">
         <div class="carousel-caption">
-          <h3>Bienvenido a Peruvian Nexus</h3>
         </div>
       </div>
-      <div class="item">
-        <img src="{{url('CelularesPeru/imagenes/6.jpg')}}" alt="Segundo producto" width="80%" height="300px">
+      <div class="carousel-item">
+        <img src="{{url('CelularesPeru/imagenes/portada2.jpg')}}" alt="Segundo producto">
         <div class="carousel-caption">
-          <h3> Compra ya!</h3>
         </div>
       </div>
-      <div class="item">
-        <img src="{{url('CelularesPeru/imagenes/11.jpg')}}" alt="Tercer producto" width="80%" height="300px">
+      <div class="carousel-item">
+        <img src="{{url('CelularesPeru/imagenes/portada3.jpg')}}" alt="Tercer producto">
         <div class="carousel-caption">
-          <h3>Vamos al catálogo! </h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{{url('CelularesPeru/imagenes/portada4.jpg')}}" alt="Cuarto producto">
+        <div class="carousel-caption">
         </div>
       </div>
     </div>

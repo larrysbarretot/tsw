@@ -34,20 +34,9 @@
 }
 
 
-
-#info-container img{
-	height: 130px;
-	margin-top: 2em;
-}
-
 #info-container #container{
 	margin-top: 2em;
 }
-
-#info-container{
-	background-color: #286FBF;
-}
-
 
 
 /*footer*/
@@ -137,12 +126,6 @@ div.carousel-item h3{
 
 
 /*Franco header */
-#header-container {
-    background-color: #286FBF;
-}
-.btn.btn-celperu{
-	background-color: #286FBF;
-}
 .col-xs-3 .imagen3{
 	margin-top: 0.5em;
 }
